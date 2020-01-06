@@ -200,7 +200,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 
 bindsym Mod1+Escape exec "i3lock-fancy -gpf Comic-Sans-MS -- scrot -k"
 
-# Reverse scroll directions 
+# fzf program explorer
 bindsym Mod1+d exec --no-startup-id termite -t 'fzf-menu' -e 'i3-dmenu-desktop --dmenu=fzf'
 for_window [title="fzf-menu"] floating enable
 
